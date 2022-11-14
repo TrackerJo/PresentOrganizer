@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- add index stylesheet -->
+     <link rel="stylesheet" type="text/css" href="list.css">
+    <title>List</title>
+</head>
+<body>
+    <img class="icon" id="home" src="images/home.png"><label class="title" id="listName">List Name</label> <img class="icon" id="addItem" src="images/plus.png"><img class="icon" id="shareList" src="images/share.png">
+    <div id="items">
+
+    </div>
+    <div id="addItemPrompt" class="hide">
+        <div id="promptContent" class="hidden none">
+            <h2 id="itemTitle">Add Item</h2>
+            <br>
+            <label id="itemNameLabel" for="itemNameInput">Item Name</label>
+            <input type="text" id="itemNameInput">
+            <br>
+            <label id="itemDescriptionLabel" for="itemDescriptionInput">Item Description</label>
+            <input type="text" id="itemDescriptionInput">
+            <br>
+            <label id="itemLinkLabel" for="itemLinkInput">Item's Link to buy</label>
+            <input type="text" id="itemLinkInput">
+            <br>
+            <button id="addItemBtn">Add</button>
+        </div>
+    </div>
+    <script type="module" src="list.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add index stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Present Organizer</title>
+</head>
+<body>
+    <h1>Present Organizer</h1>
+    <div class="navBar">
+      <button class="navButton active" id="myListsBtn">My Lists</button>
+      <button class="navButton" id="sharedListsBtn">Shared Lists</button>
+      <button class="navButton" id="accountBtn">Account Settings</button>
+    </div>
+    <div id="myListsSection">
+      <label class="title">My Lists</label> <img id="createList" src="images/plus.png">
+      
+      <div id="myLists">
+
+      </div>
+    </div>
+    <div id="sharedListsSection">
+      <label class="title">Shared Lists</label>
+      <div id="sharedLists">
+
+      </div>
+   </div>
+   <div id="accountSection"> 
+      <button id="signOut">Sign Out</button>
+   </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
